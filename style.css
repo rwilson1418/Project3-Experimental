@@ -1,0 +1,27 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+.grad{
+  width: 100%;
+}
+.grad img{
+  width: 100%;
+  margin-top: -5px;
+}
+.fish1 img{
+  width: 35%;
+}
+.shark img{
+  width:50%;
+}
+.anglr img{
+  width: 20%;
+  margin-top: -300px;
+}
