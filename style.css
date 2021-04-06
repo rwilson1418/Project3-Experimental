@@ -31,7 +31,7 @@ body{
   background: transparent;
   border: none;
   margin-left: 60%;
-  margin-top: 8%;
+  margin-top: 2%;
   position: fixed;
   z-index: 10;
   animation: rotation 2s infinite linear;
@@ -51,7 +51,7 @@ body{
 .wave{
   width: 110%;
   margin-left: -5%;
-  margin-top: 10%;
+  margin-top: 4%;
   z-index: 5;
   animation: rotation 5s infinite linear;
 }
