@@ -14,6 +14,7 @@ body{
   height: 20000px;
   overflow-x: hidden;
 }
+
 @keyframes rotation {
   0% { transform: rotate(0deg);}
   50% { transform: rotate(6deg);}
@@ -21,7 +22,6 @@ body{
 }
 @keyframes move{
   0% {transform:translate(0);}
-  6% {transform:translate(0);}
   100% {transform:translate(2500px);}
 }
 .button:focus{
@@ -58,39 +58,60 @@ body{
 .shallow{
   height: 3000px;
 }
-.fish1{
-  margin-left: -30%;
+/*Animate*/
+.fish1 img{
+  margin-left: -5%;
   width: 30%;
-  animation: move 8s linear infinite;
 }
+.fish1 img.animatefish1{
+  animation: move 15s linear infinite;
+}
+
 .mid{
   height: 2500px;
 }
-.shark{
-  margin-left: -55%;
-  width: 50%;
-  animation: move 15s linear infinite;
-  animation-direction: reverse;
+/*Animate*/
+.shark img{
+  margin-left: -50%;
+  width: 65%;
   z-index: 11;
+  position: relative;
+  z-index: 11;
+  position: relative;
 }
+.shark img.animateshark{
+  animation: move 5s linear infinite;
+  animation-direction: reverse;
+}
+
 .deepish{
   height: 2000px;
 }
-.fish2{
-  margin-left: -30%;
-  width: 25%;
-  animation: move 8s linear infinite;
+/*Animate*/
+.fish2 img{
+  margin-left: -60%;
+  width: 24%;
+  z-index: 11;
+  position: relative;
+}
+.fish2 img.animatefish2{
+  animation: move 15s linear infinite;
   animation-direction: reverse;
 }
 .deep{
   height: 5000px;
 }
-.anglr{
-  margin-left: -20%;
+/*Animate*/
+.anglr img{
+  margin-left: -5%;
   width: 18%;
-  animation: move 8s linear infinite;
-  z-index: 12;
+  position: relative;
+  z-index: 20;
 }
+.anglr img.animateanglr{
+  animation: move 10s linear infinite;
+}
+
 .bottom{
   height: 3500px;
 }
