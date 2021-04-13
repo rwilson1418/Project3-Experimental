@@ -1,7 +1,13 @@
 $('#button').click(function () {
   $('html,body').animate({
     scrollTop: $(document).height()
-  },35000);
+  },40000);
+})
+
+$('#buttonup').click(function () {
+  $('html,body').animate({
+    scrollTop: 0
+  },15000);
 })
 
 $('#button').click(function pictureChange() {
